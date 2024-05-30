@@ -1,0 +1,27 @@
+#websiteTitle, #playerTurn{
+    text-align: center;
+}
+
+* {
+    background-color: #FFEFFF;
+   
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* set a fixed width for each column */
+    grid-template-rows: repeat(3, 150px); /* set a fixed height for each row */
+    margin: 50px auto; /* center the grid horizontally */
+    margin-left: 490px;
+    gap: 5px; /* set a small gap between grid items */
+  }
+  
+  .grid-item {
+    background-color: #E0BBE4;
+    border: 5px solid #957DAD;
+    font-size: 50px; /* increase font size for better visibility */
+    display: flex; /* use flexbox to center content */
+    justify-content: center;
+    align-items: center;
+  }
